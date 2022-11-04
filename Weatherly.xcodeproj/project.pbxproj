@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C5070E92915AA1300DF7BC0 /* NewWeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C5070E82915AA1300DF7BC0 /* NewWeatherView.swift */; };
 		0CC298B2286A44AA00ADBD33 /* WeatherlyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CC298B1286A44AA00ADBD33 /* WeatherlyApp.swift */; };
 		0CC298B4286A44AA00ADBD33 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CC298B3286A44AA00ADBD33 /* ContentView.swift */; };
 		0CC298B6286A44AC00ADBD33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CC298B5286A44AC00ADBD33 /* Assets.xcassets */; };
@@ -23,6 +24,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0C5070E82915AA1300DF7BC0 /* NewWeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewWeatherView.swift; sourceTree = "<group>"; };
 		0CC298AE286A44AA00ADBD33 /* Weatherly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Weatherly.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CC298B1286A44AA00ADBD33 /* WeatherlyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherlyApp.swift; sourceTree = "<group>"; };
 		0CC298B3286A44AA00ADBD33 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -105,6 +107,7 @@
 				0CC298C3286A454500ADBD33 /* WelcomeView.swift */,
 				0CC298C5286A454C00ADBD33 /* LoadingView.swift */,
 				0CC298C7286A455200ADBD33 /* WeatherView.swift */,
+				0C5070E82915AA1300DF7BC0 /* NewWeatherView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -195,6 +198,7 @@
 				0CC298C8286A455200ADBD33 /* WeatherView.swift in Sources */,
 				0CD91401286A4802003780F1 /* LocationManager.swift in Sources */,
 				0CC298C6286A454C00ADBD33 /* LoadingView.swift in Sources */,
+				0C5070E92915AA1300DF7BC0 /* NewWeatherView.swift in Sources */,
 				0CD91404286A4818003780F1 /* WeatherManager.swift in Sources */,
 				0CD91406286A4A50003780F1 /* ModelData.swift in Sources */,
 				0CC298C4286A454500ADBD33 /* WelcomeView.swift in Sources */,
