@@ -9,64 +9,30 @@ import SwiftUI
 
 struct NewWeatherView: View {
     var body: some View {
-        ZStack(alignment: .leading) {
-            VStack(spacing: 40) {
-                HStack(alignment: .center, spacing: 235) {
+        ZStack {
+            VStack {
+                HeadingSection()
+                HStack {
                     VStack(alignment: .leading) {
-                        Text("Location")
-                            .font(.headline)
-                        Text("Date")
+                        Text("18°")
+                            .font(.system(size: 70))
+                            .fontWeight(.bold)
+                        Text("Thunderstorm")
                             .font(.caption)
                     }
-                    ZStack {
-                        RoundedRectangle(cornerRadius: 15, style: .continuous)
-                            .fill(.gray)
-                            .frame(width: 50, height: 50)
-                        Image(systemName: "square.on.square")
-                    }
-                }
-                HStack(spacing: 150) {
-                    VStack {
-                        Text("18^0")
-                            .font(.largeTitle)
-                        Text("Thunderstorm")
-                    }
-                    Image(systemName: "tropicalstorm.circle")
+                    .padding()
+                    Spacer()
+                    Image(systemName: "cloud.bolt.rain.fill")
                         .resizable()
-                        .frame(width: 100, height: 100)
+                        .frame(width: 75, height: 75)
+                        .padding()
                 }
-                ZStack {
-                    RoundedRectangle(cornerRadius: 25, style: .continuous)
-                        .fill(.gray)
-                        .frame(width: 350, height: 100)
-                    HStack(spacing: 65) {
-                        VStack(spacing: 5) {
-                            Image(systemName: "wind")
-                                .frame(width: 25, height: 25)
-                            Text("10 m/s")
-                            Text("Wind")
-                                .font(.caption)
-                        }
-                        VStack(spacing: 5) {
-                            Image(systemName: "humidity.fill")
-                                .frame(width: 25, height: 25)
-                            Text("98%")
-                            Text("Humidity")
-                                .font(.caption)
-                        }
-                        VStack(spacing: 5) {
-                            Image(systemName: "cloud.rain.fill")
-                                .frame(width: 25, height: 25)
-                            Text("100%")
-                            Text("Rain")
-                                .font(.caption)
-                        }
-                    }
-                }
-                Spacer()
+                ConditionsSection()
+                
             }
         }
-        .preferredColorScheme(.dark)
+        .foregroundColor(Color.white)
+        .background(Color(red: 26 / 255, green: 28 / 255, blue: 30 / 255))
     }
 }
 
