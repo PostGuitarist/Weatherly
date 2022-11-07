@@ -24,6 +24,7 @@
 		0CD91404286A4818003780F1 /* WeatherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD91403286A4818003780F1 /* WeatherManager.swift */; };
 		0CD91406286A4A50003780F1 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD91405286A4A50003780F1 /* ModelData.swift */; };
 		0CD91408286A4A84003780F1 /* weatherData.json in Resources */ = {isa = PBXBuildFile; fileRef = 0CD91407286A4A84003780F1 /* weatherData.json */; };
+		0CF20C2F29197A4200EAE139 /* FutureSelection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF20C2E29197A4200EAE139 /* FutureSelection.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +46,7 @@
 		0CD91403286A4818003780F1 /* WeatherManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherManager.swift; sourceTree = "<group>"; };
 		0CD91405286A4A50003780F1 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
 		0CD91407286A4A84003780F1 /* weatherData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = weatherData.json; sourceTree = "<group>"; };
+		0CF20C2E29197A4200EAE139 /* FutureSelection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FutureSelection.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				0C1C3EA6291881D500C675C4 /* HeadingSection.swift */,
 				0C1C3EA92918824100C675C4 /* ConditionsSection.swift */,
 				0C1C3EAB2918825400C675C4 /* FutureSection.swift */,
+				0CF20C2E29197A4200EAE139 /* FutureSelection.swift */,
 			);
 			path = Sections;
 			sourceTree = "<group>";
@@ -219,6 +222,7 @@
 				0C5070E92915AA1300DF7BC0 /* NewWeatherView.swift in Sources */,
 				0CD91404286A4818003780F1 /* WeatherManager.swift in Sources */,
 				0C1C3EA7291881D500C675C4 /* HeadingSection.swift in Sources */,
+				0CF20C2F29197A4200EAE139 /* FutureSelection.swift in Sources */,
 				0C1C3EAC2918825400C675C4 /* FutureSection.swift in Sources */,
 				0CD91406286A4A50003780F1 /* ModelData.swift in Sources */,
 				0CC298C4286A454500ADBD33 /* WelcomeView.swift in Sources */,
