@@ -9,20 +9,25 @@ import SwiftUI
 
 struct FutureSelection: View {
     var body: some View {
-        VStack(alignment: .leading) {
-            HStack {
-                Text("Today")
-                    .font(.caption)
-                Text("Tomorrow")
-                    .font(.caption)
-                Text("Next 10 days")
-                    .font(.caption)
-            }
-            Image(systemName: "circle.fill")
-                .resizable()
-                .frame(width: 5, height: 5, alignment: .center)
+        TabView {
+            HourlySection()
+                .frame(width: 425, height: 50)
+                .tabItem{
+                    Image(systemName: "1.circle")
+                    Text("Tab 1")
+                }
+            TomorrowSection()
+                .tabItem{
+                    Image(systemName: "2.circle")
+                    Text("Tab 2")
+                }
+            Color.mint
+                .tabItem{
+                    Image(systemName: "3.circle")
+                    Text("Tab 3")
+                }
         }
-        .padding()
+        .tabViewStyle(.page(indexDisplayMode: .never))
     }
 }
 

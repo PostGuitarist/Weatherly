@@ -29,7 +29,7 @@ struct NewWeatherView: View {
                 }
                 ConditionsSection()
                 FutureSelection()
-                FutureSection()
+                    .frame(width: 425, height: 170)
                 Spacer()
                 
             }
