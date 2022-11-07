@@ -13,7 +13,6 @@ struct ConditionsSection: View {
             RoundedRectangle(cornerRadius: 25)
                 .fill(Color(red: 32 / 255, green: 36 / 255, blue: 41 / 255))
                 .frame(width: 360, height: 100)
-            
             HStack(spacing: 40) {
                 VStack(spacing: 5) {
                     Image(systemName: "wind")
