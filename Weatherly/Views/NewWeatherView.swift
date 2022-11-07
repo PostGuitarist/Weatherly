@@ -28,6 +28,7 @@ struct NewWeatherView: View {
                         .padding()
                 }
                 ConditionsSection()
+                FutureSection()
                 
             }
         }
