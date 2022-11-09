@@ -13,9 +13,12 @@ struct HeadingSection: View {
             VStack(alignment: .leading) {
                 Text("Stuttgart")
                     .font(.headline)
+                    .bold()
                     .frame(alignment: .topLeading)
+                    .foregroundColor(.white)
                 Text("12 September, Sunday")
                     .font(.caption)
+                    .foregroundColor(.gray)
             }
             .padding()
             Spacer()
@@ -24,6 +27,9 @@ struct HeadingSection: View {
                     .fill(Color(red: 32 / 255, green: 36 / 255, blue: 41 / 255))
                     .frame(width: 35, height: 35)
                 Image(systemName: "square.grid.2x2.fill")
+                    .resizable()
+                    .frame(width: 20, height: 20)
+                    .foregroundColor(.gray)
             }
             .padding()
         }

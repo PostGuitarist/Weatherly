@@ -17,8 +17,11 @@ struct WeatherView: View {
                         Text("18°")
                             .font(.system(size: 70))
                             .fontWeight(.bold)
+                            .foregroundColor(.white)
                         Text("Thunderstorm")
-                            .font(.caption)
+                            .font(.system(size: 15))
+                            .bold()
+                            .foregroundColor(.gray)
                     }
                     .padding()
                     Spacer()
@@ -26,13 +29,15 @@ struct WeatherView: View {
                         .resizable()
                         .frame(width: 75, height: 75)
                         .padding()
+                        .foregroundColor(.white)
                 }
                 ConditionsSection()
+                FutureSelection()
+                TodayConditions()
                 Spacer()
                 
             }
         }
-        .foregroundColor(Color.white)
         .background(Color(red: 26 / 255, green: 28 / 255, blue: 30 / 255))
     }
 }
