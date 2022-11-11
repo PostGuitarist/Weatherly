@@ -22,16 +22,21 @@ struct HeadingSection: View {
             }
             .padding()
             Spacer()
-            ZStack {
-                RoundedRectangle(cornerRadius: 8)
-                    .fill(Color(red: 32 / 255, green: 36 / 255, blue: 41 / 255))
-                    .frame(width: 35, height: 35)
-                Image(systemName: "square.grid.2x2.fill")
-                    .resizable()
-                    .frame(width: 20, height: 20)
-                    .foregroundColor(.gray)
+            NavigationLink(destination: SettingsView()) {
+                ZStack {
+                    Button("  ") {
+                        
+                    }
+                    .buttonStyle(.borderedProminent)
+                    .tint(Color(red: 32 / 255, green: 36 / 255, blue: 41 / 255))
+                    Image(systemName: "square.grid.2x2.fill")
+                        .resizable()
+                        .frame(width: 20, height: 20)
+                        .foregroundColor(.gray)
+                }
+                .padding()
             }
-            .padding()
+            
         }
         .frame(alignment: .top)
     }

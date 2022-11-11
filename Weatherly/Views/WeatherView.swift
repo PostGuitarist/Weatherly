@@ -34,6 +34,8 @@ struct WeatherView: View {
                 ConditionsSection()
                 FutureSelection()
                 TodayConditions()
+                MapSection()
+                    .padding()
                 Spacer()
                 
             }

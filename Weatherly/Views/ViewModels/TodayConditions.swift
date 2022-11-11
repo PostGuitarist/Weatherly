@@ -22,7 +22,7 @@ struct TodayConditions: View {
                     .frame(width: 50, height: 50)
                     .padding(7)
                     .foregroundColor(.yellow)
-                Text("16^")
+                Text("18°")
                     .font(.system(size: 22))
                     .bold()
                     .foregroundColor(.white)
